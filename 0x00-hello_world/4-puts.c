@@ -1,12 +1,13 @@
 #include <stdio.h>
+
 /**
- *
- * main - Entry point
- *
- * Return: Always return 0 (Success)
+ * main - Use puts function instead of printf
+ * The puts function prints an output followed by a new line
+ * Unless used with the sytanx fputs (strings,stdout)
+ * Return: printf prints a long output with values of variables
  */
-int main(void)
+ int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-        return (0);
-}		
+	return (0);
+}
