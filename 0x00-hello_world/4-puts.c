@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- *main - use puts instead of printf
- *
- *Return: printf prints a long output
- */
+*main - use puts instead of printf
+*the puts functionprints an output followed by a new line
+*Return: printf prints a long output
+*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
-}	
+	return(0);
+}
