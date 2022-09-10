@@ -5,21 +5,20 @@
 /**
 *main - entry point
 *
-*Return: always 0 (success)
+*Return: Always 0  (Success)
 */
 int main(void)
 {
-	int c;
+	int d;
 
-	for (c = '0'; c <= '9'; c++)
+	for (d = '0'; d <= '9'; d++)
 	{
-		putchar(c);
-		if (c != '9')
+		putchar(d);
+		if (d != '9')
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		
 	}
 	putchar('\n');
 
