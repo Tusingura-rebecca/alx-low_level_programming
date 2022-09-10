@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
-*main - main block
-*Description: prints alphabet in lowercase then uppercase
-*if printed right, then
+*main - prints alphabet in lowercase and uppercase
+*
 *Return: 0
 */
 int main(void)
@@ -17,6 +16,5 @@ int main(void)
 		putchar(c);
 
 	putchar('\n');
-
-	return (0)
+	return (0);
 }
