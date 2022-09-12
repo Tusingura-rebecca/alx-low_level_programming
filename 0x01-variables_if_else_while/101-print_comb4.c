@@ -8,22 +8,35 @@
 */
 int main(void)
 {
-	int i, p, m;
+	int n1 = 0, n2, n3;
 
-	for (i = 0; i <= 9; p++)
-
-		for (m = 2; m <= 9; m++)
+	while (n1 <= 9)
+	{
+		n2 = 0;
+		while (n2 <= 9)
 		{
-			if (m > p && p > i)
+			n3 = 0;
+			while (n3 <= 9)
 			{
-				putchar(i + '0');
-				putchar(p + '0');
-				putchar(m + '0');
+				if (n1 != n2 && n1 < n2 && n2 != n3 && n2 < n3)
+				{
+					putchar(n1 + 48); 
+					putchar(n2 + 48);
+					putchar(n3 + 48);
 
-					if (i != 7)
-
+					if (n1 + n2 + n3 != 24)
+					{
 						putchar(',');
-					        putchar(' ');
+						putchar(' ');
+
+					}
+				}
+				++n3;
 			}
+			++n2;
 		}
+		++n1;
+	}
+	putchar('\n');
+	return (0);
 }
