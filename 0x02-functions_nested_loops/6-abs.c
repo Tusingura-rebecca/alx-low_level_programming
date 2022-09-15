@@ -6,7 +6,7 @@
 *@c: is the int thatwill use for the argument of the function
 *Return:0
 */
-int _abs(int)
+int _abs(int c)
 {
 	if (c > 0 || c == 0)
 	{
