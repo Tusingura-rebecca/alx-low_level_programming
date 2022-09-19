@@ -5,7 +5,7 @@
 /**
 *print_rev - prints a string, in reverse
 *@s: the string to reverse
-Return: Nothing
+*Return: Nothing
 */
 void print_rev(char *s)
 {
