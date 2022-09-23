@@ -4,7 +4,7 @@
 /**
 *print_number -  prints an integer
 *@n: integer to print
-*Return: always 0
+*
 */
 void print_number(int n)
 {
@@ -18,5 +18,6 @@ void print_number(int n)
 
 	if ((num / 10) > 0)
 		print_number(num / 10);
+
 	putchar((num % 10) + '0');
 }
