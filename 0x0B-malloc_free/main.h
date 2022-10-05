@@ -13,5 +13,5 @@ char **strtow(char *str);
 int **alloc_grid(int width, int height);
 int _putchar(char c);
 int len(char *str);
-
+int num_words(char *str);
 #endif /* MAIN_H */
