@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 
-/*
-* array_range - creates an array of integers.
+/**
+* array_range - creates an array of integers
 *@min: first integer
 *@max: last integer
 *Return: pointer to the newly created array or NULL if it fails
