@@ -3,7 +3,7 @@
 
 /**
 * free_list -  frees a list_t list.
-*@head: apointer o the list
+*@head: a pointer to the list
 */
 void free_list(list_t *head)
 {
