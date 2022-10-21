@@ -2,22 +2,18 @@
 #include <stdlib.h>
 
 /**
-* free_list -  frees a list_t list.
-*@head: a pointer to the list
-*Return: no return
+*free_list - frees a list_t list.
+*@head: pointer to the first node of the linked list
+*Return: nothing
 */
-
 void free_list(list_t *head)
 {
-	list_t *temp;
+	list_t *current_node;
 
-	while (head)
+	while ((current_node = head) != NULL)
 	{
-		temp = head;
 		head = head->next;
-		free(temp->str);
-		free(temp);
+		free(current_node->str);
+		free(current_node);
 	}
-
-	free(head);
 }
